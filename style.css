@@ -1086,7 +1086,6 @@ textarea[type="text"]::placeholder {
 /*----Footer----*/
 
 .footer{
-    background-image: url("../img/footer/backgr.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100vw 100%;
