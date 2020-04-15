@@ -17,7 +17,8 @@
 </head>
 
 <body>
-<header class="header container-fluid" style="background-image: url(<?php the_field('header'); ?>)";>
+
+<header class="header container-fluid" style="background-image: url(<?php the_field('header'); ?>)" >
     <div class="container">
         <div class="d-flex flex-wrap-reverse flex-md-nowrap  justify-content-sm-around justify-content-md-between welcome-wrapper">
             <div class="welcome align-self-end">
