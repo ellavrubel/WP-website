@@ -49,7 +49,7 @@ Welcome to <span>restorantBD.com</span>
         <div class="container">
         <div class="row row__menu">
             <div class="col-1">
-                <img class="header__logo img-fluid" src="img/Logot.png" alt="">
+                <img class="header__logo img-fluid" src="<?php bloginfo( 'template_url' ); ?>/assets/img/Logot.png" alt="">
             </div>
             <div class="offset-2 col-9 header__nav d-flex align-self-center">
                 <div class="header__list">

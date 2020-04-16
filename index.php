@@ -74,44 +74,102 @@
     </div>
     <div class="futureItem__carousel-wrapper">
         <div class="owl-carousel owl-theme slider1">
-            <div class="item item1 d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish.png" alt="Party Platter">
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php the_field('item'); ?>" alt="">
+                <p class="dish-descr"><?php the_field('dish-descr'); ?><br>
+                    <span class="item1-price"><?php the_field('item1-price'); ?><s class="old-price"><?php the_field('old-price'); ?></s></span></p>
+            </div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish1.png" alt="">
+                <p class="dish-descr">Chicken Sandwich<br>
+                    12.50$ <s>18.80$</s></p></div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish2.png" alt=""">
+                <p class="dish-descr">Chicken Crisper<br>
+                    9.50$ <s>11.80$</s></p></div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish3.png" alt="">
+                <p class="dish-descr">Ribs & Stickes<br>
+                    11.80$ <s>18.80$</s></p></div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish4.png" alt="">
+                <p class="dish-descr">Chicken Burger<br>
+                    6.50$ <s>8.80$</s></p></div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish5.png" alt="">
+                <p class="dish-descr">Smokehouse Combo<br>
+                    8.50$ <s>10.80$</s></p></div>
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish1.png" alt="">
                 <p class="dish-descr">Party platter<br>
                     21.50$ <s>26.80$</s></p>
             </div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish1.png" alt="Chicken Sandwich">
+            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish2.png" alt="">
                 <p class="dish-descr">Chicken Sandwich<br>
                     12.50$ <s>18.80$</s></p></div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish2.png" alt="Chicken Crisper">
+            <div class="item d-flex flex-column"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish3.png" alt="">
                 <p class="dish-descr">Chicken Crisper<br>
                     9.50$ <s>11.80$</s></p></div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish3.png" alt="Ribs & Stickes">
+            <div class="item d-flex flex-column"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish4.png" alt="">
                 <p class="dish-descr">Ribs & Stickes<br>
                     11.80$ <s>18.80$</s></p></div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish4.png" alt="Chicken Burger">
+            <div class="item d-flex flex-column"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish5.png" alt="">
                 <p class="dish-descr">Chicken Burger<br>
                     6.50$ <s>8.80$</s></p></div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish5.png" alt="Smokehouse Combo">
+            <div class="item d-flex flex-column"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/FT-dish3.png" alt="">
                 <p class="dish-descr">Smokehouse Combo<br>
                     8.50$ <s>10.80$</s></p></div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish.png" alt="Party Platter">
-                <p class="dish-descr">Party platter<br>
-                    21.50$ <s>26.80$</s></p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="services">
+    <div class="container">
+        <div class="services__wrapper d-flex justify-content-lg-between">
+            <div class="services__text-wrapper animated wow rollIn" data-wow-offset="200" data-wow-duration="2s">
+                <div class="futureItem__text services__text">
+                    <p class="title futureItem__text_services">
+                        We Provide best services
+                    </p>
+                    <p class="subtitle futureItem__text_services">
+                        About Us
+                    </p>
+                    <div class="services__arrow">
+                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/bluearrow-oneway.png" alt="">
+                    </div>
+                </div>
+                <p class="services__description">
+                    <?php the_field('services__description'); ?>
+                </p>
+                <div class="services__block one">
+                    <div class="services__block-item">
+                        <div class="services__block-title">
+                            <span class="services__p1Title"> <?php the_field('services__p1Title'); ?></span>
+                        </div>
+                        <div class="services__block-text"> <span class="services__p1Text"> <?php the_field('services__p1Text'); ?></span>
+                        </div>
+                    </div>
+                    <div class="services__block-item">
+                        <div class="services__block-title">
+                            <span class="services__p2Title"><?php the_field('services__p2Title'); ?></span>
+                        </div>
+                        <div class="services__block-text"> <span class="services__p2Text"> <?php the_field('services__p2Text'); ?></span>
+                        </div>
+                    </div>
+                    <div class="services__block-item">
+                        <div class="services__block-title">
+                            <span class="services__p3Title"> <?php the_field('services__p3Title'); ?></span>
+                        </div>
+                        <div class="services__block-text">
+                            <span class="services__p3Text"><?php the_field('services__p3Text'); ?></span>
+                        </div>
+                    </div>
+                    <div class="services__block-item">
+                        <div class="services__block-title">
+                            <span class="services__p4Title"> <?php the_field('services__p4Title'); ?></span>
+                        </div>
+                        <div class="services__block-text">
+                            <span class="services__p4Text"><?php the_field('services__p4Text'); ?></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="item d-flex flex-column animated wow fadeInUp" data-wow-duration="2s" data-wow-offset="200"><img src="img/FT-dish1.png" alt="Chicken Sandwich">
-                <p class="dish-descr">Chicken Sandwich<br>
-                    12.50$ <s>18.80$</s></p></div>
-            <div class="item d-flex flex-column"><img src="img/FT-dish2.png" alt="Chicken Crisper">
-                <p class="dish-descr">Chicken Crisper<br>
-                    9.50$ <s>11.80$</s></p></div>
-            <div class="item d-flex flex-column"><img src="img/FT-dish3.png" alt="Ribs & Stickes">
-                <p class="dish-descr">Ribs & Stickes<br>
-                    11.80$ <s>18.80$</s></p></div>
-            <div class="item d-flex flex-column"><img src="img/FT-dish4.png" alt="Chicken Burger">
-                <p class="dish-descr">Chicken Burger<br>
-                    6.50$ <s>8.80$</s></p></div>
-            <div class="item d-flex flex-column"><img src="img/FT-dish5.png" alt="Smokehouse Combo">
-                <p class="dish-descr">Smokehouse Combo<br>
-                    8.50$ <s>10.80$</s></p></div>
+            <div class="services__woman-wrapper">
+                <img src="<?php the_field('services__woman-wrapper'); ?>">
+            </div>
         </div>
     </div>
 </section>
