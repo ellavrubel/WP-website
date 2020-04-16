@@ -221,7 +221,310 @@
     </div>
 </section>
 
+<section id="menu" class="mainDish">
+    <div class="container">
+        <div class="futureItem__text">
+            <p class="title  futureItem__text-title">
+                <?php the_field('futureItem__text-title'); ?>
+            </p>
+            <p class="subtitle mainDish__subtitle">
+                <?php the_field('mainDish__subtitle'); ?>
+            </p>
+            <div class="futureItem__arrow">
+                <img src="<?php the_field('futureItem__arrow'); ?>" alt="">
+            </div>
+        </div>
 
+        <div class="mainDish__menu-wrapper">
+            <ul class="d-flex justify-content-around tabs__caption">
+                <li class="mainDish__menu-name active"><span class="menu-name1"> <a href="/"><?php the_field('menu-name1'); ?></a></span></li>
+                <li class="mainDish__menu-name"><span class="menu-name2"> <a href="/"><?php the_field('menu-name2'); ?></a></span></li>
+                <li class="mainDish__menu-name"><span class="menu-name3"> <a href="/"><?php the_field('menu-name3'); ?></a></span></li>
+                <li class="mainDish__menu-name"><span class="menu-name4"> <a href="/"><?php the_field('menu-name4'); ?></a></span></li>
+                <li class="mainDish__menu-name"><span class="menu-name5"> <a href="/"><?php the_field('menu-name5'); ?></a></span></li>
+                <li class="mainDish__menu-name"><span class="menu-name6"> <a href="/"><?php the_field('menu-name6'); ?></a></span></li>
+            </ul>
+        </div>
+
+        <!--All - visible pictires -->
+        <div class="mainDish__photo-wrap d-flex flex-column flex-md-row flex-wrap justify-content-lg-between tabs__content active">
+            <div class="menu__item d-flex">
+                <span class="dish1-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish1-img1'); ?>" alt=""></span>
+                <span class="dish1-img2"><?php the_field('dish1-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish2-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish2-img1'); ?>" alt=""></span>
+                <span class="dish2-img2"><?php the_field('dish2-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish3-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish3-img1'); ?>" alt=""></span>
+                <span class="dish3-img2"><?php the_field('dish3-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish4-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish4-img1'); ?>" alt=""></span>
+                <span class="dish4-img2"><?php the_field('dish4-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish5-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish5-img1'); ?>" alt=""></span>
+                <span class="dish5-img2"><?php the_field('dish5-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish6-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish6-img1'); ?>" alt=""></span>
+                <span class="dish6-img2"><?php the_field('dish6-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish7-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish7-img1'); ?>" alt=""></span>
+                <span class="dish7-img2"><?php the_field('dish7-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish8-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish8-img1'); ?>" alt=""></span>
+                <span class="dish8-img2"><?php the_field('dish8-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish9-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish9-img1'); ?>" alt=""></span>
+                <span class="dish9-img2"><?php the_field('dish9-img2'); ?></span>
+            </div>
+            <div class="menu__item d-flex">
+                <span class="dish10-img1"><img class="img-fluid mainDish__picture" src="<?php the_field('dish10-img1'); ?>" alt=""></span>
+                <span class="dish10-img2"><?php the_field('dish10-img2'); ?></span>
+            </div>
+        </div>
+        <!------------------------------------->
+
+        <!--Breakfast-->
+        <div class="mainDish__photo-wrap d-flex flex-wrap flex-column flex-md-row justify-content-lg-between tabs__content">
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/10.png" alt="Burger">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chickenBurg.png" alt="Burger">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/2.png" alt="Chocolate">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chocolate.png" alt="Chocolate">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/4.png" alt="Crispy">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/Crispy.png" alt="Crispy">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/3.png" alt="Mix Bol">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chicken.png" alt="Mix Bol">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/6.png" alt="Tutkey">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/california.png" alt="California">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/7.png" alt="House BBQ">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/housebbq.png" alt="House BBQ">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/8.png" alt="Wings">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/bolonese.png" alt="Wings">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/5.png" alt="Santa Fe">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/santafe.png" alt="Santa Fe">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/9.png" alt="Tripple Diple">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/tripple.png" alt="Tripples">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/1.png" alt="Pepper Pals">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/PepperPals.png" alt="Pepper Pals">
+            </div>
+        </div>
+        <!------------------------------------->
+
+        <!--Lunch-->
+        <div class="mainDish__photo-wrap d-flex flex-wrap flex-column flex-md-row justify-content-lg-between tabs__content ">
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/2.png" alt="Chocolate">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chocolate.png" alt="Chocolate">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/1.png" alt="Pepper Pals">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/PepperPals.png" alt="Pepper Pals">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/4.png" alt="Crispy">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/Crispy.png" alt="Crispy">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/3.png" alt="Mix Bol">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chicken.png" alt="Mix Bol">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/6.png" alt="Tutkey">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/california.png" alt="California">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/5.png" alt="Santa Fe">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/santafe.png" alt="Santa Fe">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/7.png" alt="House BBQ">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/housebbq.png" alt="House BBQ">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/9.png" alt="Tripple Diple">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/tripple.png" alt="Tripples">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/8.png" alt="Wings">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/bolonese.png" alt="Wings">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/10.png" alt="Burger">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chickenBurg.png" alt="Burger">
+            </div>
+        </div>
+        <!------------------------------------->
+
+        <!--Dinner-->
+        <div class="mainDish__photo-wrap d-flex flex-wrap flex-column flex-md-row justify-content-lg-between tabs__content">
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/10.png" alt="Burger">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chickenBurg.png" alt="Burger">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/9.png" alt="Tripple Diple">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/tripple.png" alt="Tripples">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/3.png" alt="Mix Bol">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chicken.png" alt="Mix Bol">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/8.png" alt="Wings">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/bolonese.png" alt="Wings">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/5.png" alt="Santa Fe">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/santafe.png" alt="Santa Fe">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/6.png" alt="Tutkey">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/california.png" alt="California">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/4.png" alt="Crispy">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/Crispy.png" alt="Crispy">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/7.png" alt="House BBQ">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/housebbq.png" alt="House BBQ">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/2.png" alt="Chocolate">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chocolate.png" alt="Chocolate">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/1.png" alt="Pepper Pals">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/PepperPals.png" alt="Pepper Pals">
+            </div>
+
+        </div>
+
+        <!------------------------------------->
+
+        <!--Dessert-->
+        <div class="mainDish__photo-wrap d-flex flex-wrap flex-column flex-md-row justify-content-lg-between tabs__content">
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/6.png" alt="Tutkey">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/california.png" alt="California">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/8.png" alt="Wings">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/bolonese.png" alt="Wings">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/7.png" alt="House BBQ">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/housebbq.png" alt="House BBQ">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/1.png" alt="Pepper Pals">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/PepperPals.png" alt="Pepper Pals">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/2.png" alt="Chocolate">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chocolate.png" alt="Chocolate">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/9.png" alt="Tripple Diple">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/tripple.png" alt="Tripples">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/10.png" alt="Burger">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chickenBurg.png" alt="Burger">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/5.png" alt="Santa Fe">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/santafe.png" alt="Santa Fe">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/4.png" alt="Crispy">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/Crispy.png" alt="Crispy">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/3.png" alt="Mix Bol">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chicken.png" alt="Mix Bol">
+            </div>
+        </div>
+
+        <!------------------------------------->
+
+        <!--Kids Menu-->
+        <div class="mainDish__photo-wrap d-flex flex-wrap flex-column flex-md-row justify-content-lg-between tabs__content">
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/2.png" alt="Chocolate">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chocolate.png" alt="Chocolate">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/1.png" alt="Pepper Pals">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/PepperPals.png" alt="Pepper Pals">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/4.png" alt="Crispy">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/Crispy.png" alt="Crispy">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/3.png" alt="Mix Bol">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chicken.png" alt="Mix Bol">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/6.png" alt="Tutkey">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/california.png" alt="California">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/5.png" alt="Santa Fe">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/santafe.png" alt="Santa Fe">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/8.png" alt="Wings">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/bolonese.png" alt="Wings">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/7.png" alt="House BBQ">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/housebbq.png" alt="House BBQ">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/10.png" alt="Burger">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/chickenBurg.png" alt="Burger">
+            </div>
+            <div class="menu__item d-flex">
+                <img class="img-fluid mainDish__picture" src="img/MainDish/9.png" alt="Tripple Diple">
+                <img class="img-fluid mainDish__picture2" src="img/MainDish/tripple.png" alt="Tripples">
+            </div>
+        </div>
+
+        <!------------------------------------->
+
+        <div class="mainDish__btn">
+            <a href="<?php the_field('mainDish__btn'); ?>" download="">FULL MENU</a>
+        </div>
+    </div>
+</section>
 
 
 

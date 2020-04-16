@@ -513,7 +513,8 @@ img.online{
     padding-bottom: 4.625rem;
 }
 .menu__item{
-    flex: 0 0 35%;
+    flex: 0 0 50%;
+    /*flex: 0 0 35%;*/
     margin-bottom: 3.125rem;
 }
 .mainDish__picture{
