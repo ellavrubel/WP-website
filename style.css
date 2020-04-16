@@ -454,7 +454,6 @@ input[type="text"]::placeholder {
 /*----Delivery----*/
 
 .delivery{
-    background-image: url("../img/HomeDeliv/backgr.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100vw 100vh;

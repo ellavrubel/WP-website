@@ -174,6 +174,53 @@
     </div>
 </section>
 
+<section class="delivery" style= "background-image: url(<?php the_field('delivery'); ?>)">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="futureItem__text">
+                <p class="title delivery__title">
+                    <?php the_field('delivery__title'); ?>
+                </p>
+                <p class="subtitle delivery__subtitle">
+                    <?php the_field('delivery__subtitle'); ?>
+                </p>
+                <div class="futureItem__arrow">
+                    <img src="<?php the_field('futureItem__arrow'); ?>" alt="">
+                </div>
+            </div>
+            <div class="delivery__card-wrapper d-flex flex-column flex-md-row justify-content-around">
+                <div class="delivery__card1 animated wow zoomIn" data-wow-duration="2s" data-wow-offset="200">
+                    <p class="card1__title">
+                        <?php the_field('card1__title'); ?>
+                    </p>
+                    <p class="card1__text">
+                        <?php the_field('card1__text'); ?>
+                    </p>
+                    <img src="<?php the_field('select'); ?>" alt="" class="select img-fluid">
+                </div>
+                <div class="delivery__card2 animated wow zoomIn" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="1s">
+                    <p class="card1__title">
+                        <span class="card2-title"><?php the_field('card2-title'); ?></span>
+                    </p>
+                    <p class="card1__text">
+                       <span class="card2-subtitle"> <?php the_field('card2-subtitle'); ?></span>
+                    </p>
+                    <img src="<?php the_field('online'); ?>" alt="" class="online img-fluid">
+                </div>
+                <div class="delivery__card3 animated wow zoomIn" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="2s">
+                    <p class="card1__title">
+                        <span class="card3-title"><?php the_field('card3-title'); ?></span>Recevied Delivery
+                    </p>
+                    <p class="card1__text">
+                        <span class="card3-subtitle"> <?php the_field('card3-subtitle'); ?></span>
+                    </p>
+                    <img src="<?php the_field('hand'); ?>" alt="" class="hand img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 
