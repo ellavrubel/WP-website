@@ -605,57 +605,65 @@
                     </div>
                 </div>
 
-                <div class="item d-flex flex-column stuff__first">
-                    <img src="img/OurStuff/man-glasses.jpg" alt="the chef" class="human">
-                    <div class="stuff__text-wrap">
-                        <p class="stuff__name">Morgan M.Porter<br>
-                            <span class="occupation">
-                            Head Chef</span></p>
-                        <div class="stuff__social-wrap d-flex justify-content-around">
-                            <span class="stuff__social-item">Follow:</span>
-                            <i class="icon fa fa-facebook"></i>
-                            <i class="icon fa fa-twitter"></i>
-                            <i class="icon fa fa-instagram"></i>
-                            <i class="icon fa fa-google-plus-square"></i>
-                            <i class="fa fa-pinterest-square"></i>
+                <div class="stuff__first animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200">
+                    <div class="item d-flex flex-column ">
+                        <span class="stuff-img1"><img src="<?php the_field('stuff-img1'); ?>" alt="" class="human"></span>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name1"><?php the_field('name1'); ?></span> <br>
+                                <span class="occupation1 occupation">
+                            <?php the_field('occupation1'); ?></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="item d-flex flex-column stuff__second">
-                    <div class="stuff__img-wrap">
-                        <img src="img/OurStuff/woman.png" alt="the chef assistant" class="human">
-                    </div>
-                    <div class="stuff__text-wrap">
-                        <p class="stuff__name">Katherina G.Wright<br>
-                            <span class="occupation">
-                            Chef Assistant</span></p>
-                        <div class="stuff__social-wrap d-flex justify-content-around">
-                            <span class="stuff__social-item">Follow:</span>
-                            <i class="icon fa fa-facebook"></i>
-                            <i class="icon fa fa-twitter"></i>
-                            <i class="icon fa fa-instagram"></i>
-                            <i class="icon fa fa-google-plus-square"></i>
-                            <i class="fa fa-pinterest-square"></i>
+                <div class="stuff__second animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="1s">
+                    <div class="item d-flex flex-column">
+                        <div class="stuff__img-wrap">
+                            <span class="stuff-img2"><img src="<?php the_field('stuff-img2'); ?>" alt="" class="human"></span>
+
+                        </div>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name2"><?php the_field('name2'); ?></span><br>
+                                <span class="occupation2 occupation">
+                            <?php the_field('occupation2'); ?></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
                         </div>
                     </div>
-                    <img class="photo__sign1" src="img/OurStuff/plus.png" alt="plus">
-                    <img class="photo__sign2" src="img/OurStuff/sign.png" alt="">
+                    <img class="photo__sign1" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/plus.png" alt="">
+                    <img class="photo__sign2" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/sign.png" alt="">
                 </div>
 
-                <div class="item d-flex flex-column stuff__third">
-                    <img src="img/OurStuff/man-smile.jpg" alt="the chef & founder" class="human">
-                    <div class="stuff__text-wrap">
-                        <p class="stuff__name">Piter Shwah<br>
-                            <span class="occupation">
-                            Chef & Founder</span></p>
-                        <div class="stuff__social-wrap d-flex justify-content-around">
-                            <span class="stuff__social-item">Follow:</span>
-                            <i class="icon fa fa-facebook"></i>
-                            <i class="icon fa fa-twitter"></i>
-                            <i class="icon fa fa-instagram"></i>
-                            <i class="icon fa fa-google-plus-square"></i>
-                            <i class="fa fa-pinterest-square"></i>
+                <div class="stuff__third animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="2s">
+                    <div class="item d-flex flex-column">
+                        <span class="stuff-img3"><img src="<?php the_field('stuff-img3'); ?>" alt="" class="human"></span>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name3"><?php the_field('name3'); ?></span><br>
+                                <span class="occupation3 occupation">
+                            <?php the_field('occupation3'); ?></span></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -667,6 +675,157 @@
         </div>
     </div>
 </section>
+
+<section class="event">
+    <div class="container-fluid event__photo" style="background-image: url(<?php the_field('event__photo'); ?>)">
+        <div class="event__video-btn">
+            <a class="page_link" href="<?php the_field('page_link'); ?>" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/events/video.png" alt=""></a>
+        </div>
+    </div>
+    <div class="container event__offer-wrap">
+        <div class="container event__offer">
+            <div class="event__band-wrap">
+                <div class="event__band">
+                    <p class="kids-entry-free"><?php the_field('kids-entry-free'); ?></p>
+                </div>
+            </div>
+            <div class="futureItem__text futureItem__text-event">
+                <p class="subtitle mainDish__subtitle">
+                    <span class="event-title"> <?php the_field('event-title'); ?></span>
+                   </p>
+                <div class="futureItem__arrow">
+                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/blue_arrow.png" alt="">
+                </div>
+                <p class="event__red-text">
+                    <?php the_field('event__red-text'); ?>
+                    </p>
+                <p class="event__discription">
+                    <?php the_field('event__discription'); ?>
+                     </p>
+            </div>
+            <div class="event__info d-flex flex-column flex-md-row justify-content-md-around">
+                <div class="event__sponsors">
+                    <p class="event__sponsors-title">
+                        <?php the_field('event__sponsors-title'); ?>
+
+                        <a href="/"><i class="event__arrow-down fa fa-arrow-down"></i></a>
+                    </p>
+                    <div class="event__sponsors-logo d-sm-flex justify-content-md-around flex-lg-row flex-wrap-reverse">
+                        <span class="spons-logo1"><img class="logo-item" src="<?php the_field('spons-logo1'); ?>" alt=""></span>
+                        <span class="spons-logo2"><img class="logo-item" src="<?php the_field('spons-logo2'); ?>" alt=""></span>
+                        <span class="spons-logo3"><img class="logo-item" src="<?php the_field('spons-logo3'); ?>" alt=""></span>
+                        <span class="spons-logo4"><img class="logo-item" src="<?php the_field('spons-logo4'); ?>" alt=""></span>
+                    </div>
+                </div>
+
+                <div class="event__time">
+                    <p class="event__time-title">
+                        <?php the_field('event__time-title'); ?>
+                        Time & Date
+                        <a href="/"><i class="event__arrow-down2 fa fa-arrow-down"></i></a>
+                    </p>
+                    <p class="event__time-text">
+
+                        <?php the_field('event__time-text'); ?>
+                    </p>
+                </div>
+
+                <div class="event__button align-self-center">
+                    <a class="buy-tickets" href="<?php the_field('buy-tickets'); ?>" target="_blank"> Buy Ticket </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="container">
+        <div class="futureItem__text feedback__title">
+            <p class="title feedback__title">
+                What Our Customers Say
+            </p>
+            <p class="subtitle mainDish__subtitle">
+                Customer Feedback
+            </p>
+            <div class="futureItem__arrow">
+                <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/blue_arrow.png" alt="">
+            </div>
+        </div>
+
+        <div class="owl-carousel owl-theme slider3">
+            <div class="slider3-wrap d-flex justify-content-center animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200">
+                <div class="item item-img">
+                    <span class="customer1-img"><img src="<?php the_field('customer1-img'); ?>" alt=""></span>
+                </div>
+
+                <div class="item item-text d-flex flex-column justify-content-center align-items-center">
+                    <p class="quote">&#8243;</p>
+                    <p class="feedback__text">
+                        <?php the_field('feedback__text'); ?>
+
+                    </p>
+                    <p class="feedback__rating">
+                        Personal Rating:
+                        <span class="feedback__digit"> <?php the_field('feedback__digit'); ?> </span></p>
+                    <div class="feedback__signature">
+                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/Matthew.png" alt="">
+                    </div>
+                </div>
+                <div class="feedback__redMark">
+                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/customer_feedback/redMark.png" alt="">
+                </div>
+            </div>
+
+            <div class="slider3-wrap d-flex justify-content-center animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200">
+                <div class="item item-img">
+                    <span class="customer1-img"><img src="<?php the_field('customer1-img'); ?>" alt=""></span>
+                </div>
+
+                <div class="item item-text d-flex flex-column justify-content-center align-items-center">
+                    <p class="quote">&#8243;</p>
+                    <p class="feedback__text">
+                        <?php the_field('feedback__text'); ?>
+
+                    </p>
+                    <p class="feedback__rating">
+                        Personal Rating:
+                        <span class="feedback__digit"> <?php the_field('feedback__digit'); ?> </span></p>
+                    <div class="feedback__signature">
+                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/Matthew.png" alt="">
+                    </div>
+                </div>
+                <div class="feedback__redMark">
+                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/customer_feedback/redMark.png" alt="">
+                </div>
+            </div>
+
+            <div class="slider3-wrap d-flex justify-content-center animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200">
+                <div class="item item-img">
+                    <span class="customer1-img"><img src="<?php the_field('customer1-img'); ?>" alt=""></span>
+                </div>
+
+                <div class="item item-text d-flex flex-column justify-content-center align-items-center">
+                    <p class="quote">&#8243;</p>
+                    <p class="feedback__text">
+                        <?php the_field('feedback__text'); ?>
+
+                    </p>
+                    <p class="feedback__rating">
+                        Personal Rating:
+                        <span class="feedback__digit"> <?php the_field('feedback__digit'); ?> </span></p>
+                    <div class="feedback__signature">
+                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/Matthew.png" alt="">
+                    </div>
+                </div>
+                <div class="feedback__redMark">
+                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/customer_feedback/redMark.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 
 

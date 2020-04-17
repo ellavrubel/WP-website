@@ -653,7 +653,6 @@ img.small-circle{
     position: relative;
 }
 .event__photo{
-    background-image: url("../img/events/backgr.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100vw 100vh;
@@ -668,7 +667,7 @@ img.small-circle{
 .event__offer-wrap{
     padding: 0;
     position: absolute;
-    top: 60%; left: 22%;
+    top: 60%; left: 28%;
     z-index: 10;
     background-color: #fff;
     overflow: hidden;
@@ -737,7 +736,7 @@ img.small-circle{
     padding-top: 1rem;
 }
 .event__time-title, .event__time-text{
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
 }
 .event__sponsors, .event__time, .event__button{
     flex: 0 0 20%;
@@ -753,7 +752,8 @@ img.small-circle{
 
 .feedback{
     height: 85vh;
-    /*background-color: #ffe8e7;*/
+    padding-top: 162px;
+    background-color: #ffe8e7;
     margin-bottom: 5rem;
 }
 .feedback__title{
