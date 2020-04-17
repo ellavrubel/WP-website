@@ -526,6 +526,148 @@
     </div>
 </section>
 
+<section class="stuff">
+    <div class="container">
+        <div class="futureItem__text">
+            <p class="title">
+                We Have Awesome Team
+            </p>
+            <p class="subtitle mainDish__subtitle">
+                Our Stuff
+            </p>
+            <div class="futureItem__arrow">
+                <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/blue_arrow.png" alt="">
+            </div>
+        </div>
+        <div class="stuff__carousel-wrap">
+            <div class="owl-carousel owl-theme slider2">
+
+                <div class="stuff__first animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200">
+                    <div class="item d-flex flex-column ">
+                        <span class="stuff-img1"><img src="<?php the_field('stuff-img1'); ?>" alt="" class="human"></span>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name1"><?php the_field('name1'); ?></span> <br>
+                                <span class="occupation1 occupation">
+                            <?php the_field('occupation1'); ?></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stuff__second animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="1s">
+                    <div class="item d-flex flex-column">
+                        <div class="stuff__img-wrap">
+                            <span class="stuff-img2"><img src="<?php the_field('stuff-img2'); ?>" alt="" class="human"></span>
+
+                        </div>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name2"><?php the_field('name2'); ?></span><br>
+                                <span class="occupation2 occupation">
+                            <?php the_field('occupation2'); ?></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="photo__sign1" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/plus.png" alt="">
+                    <img class="photo__sign2" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/sign.png" alt="">
+                </div>
+
+                <div class="stuff__third animated wow slideInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="2s">
+                    <div class="item d-flex flex-column">
+                        <span class="stuff-img3"><img src="<?php the_field('stuff-img3'); ?>" alt="" class="human"></span>
+                        <div class="stuff__text-wrap">
+                            <p class="stuff__name"><span class="name3"><?php the_field('name3'); ?></span><br>
+                                <span class="occupation3 occupation">
+                            <?php the_field('occupation3'); ?></span></span></p>
+                            <div class="stuff__social-wrap d-flex justify-content-around">
+                                <span class="stuff__social-item">Follow:</span>
+                                <i class="icon fa fa-facebook"></i>
+                                <i class="icon fa fa-twitter"></i>
+                                <i class="icon fa fa-instagram"></i>
+                                <i class="icon fa fa-google-plus-square"></i>
+                                <i class="fa fa-pinterest-square"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item d-flex flex-column stuff__first">
+                    <img src="img/OurStuff/man-glasses.jpg" alt="the chef" class="human">
+                    <div class="stuff__text-wrap">
+                        <p class="stuff__name">Morgan M.Porter<br>
+                            <span class="occupation">
+                            Head Chef</span></p>
+                        <div class="stuff__social-wrap d-flex justify-content-around">
+                            <span class="stuff__social-item">Follow:</span>
+                            <i class="icon fa fa-facebook"></i>
+                            <i class="icon fa fa-twitter"></i>
+                            <i class="icon fa fa-instagram"></i>
+                            <i class="icon fa fa-google-plus-square"></i>
+                            <i class="fa fa-pinterest-square"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item d-flex flex-column stuff__second">
+                    <div class="stuff__img-wrap">
+                        <img src="img/OurStuff/woman.png" alt="the chef assistant" class="human">
+                    </div>
+                    <div class="stuff__text-wrap">
+                        <p class="stuff__name">Katherina G.Wright<br>
+                            <span class="occupation">
+                            Chef Assistant</span></p>
+                        <div class="stuff__social-wrap d-flex justify-content-around">
+                            <span class="stuff__social-item">Follow:</span>
+                            <i class="icon fa fa-facebook"></i>
+                            <i class="icon fa fa-twitter"></i>
+                            <i class="icon fa fa-instagram"></i>
+                            <i class="icon fa fa-google-plus-square"></i>
+                            <i class="fa fa-pinterest-square"></i>
+                        </div>
+                    </div>
+                    <img class="photo__sign1" src="img/OurStuff/plus.png" alt="plus">
+                    <img class="photo__sign2" src="img/OurStuff/sign.png" alt="">
+                </div>
+
+                <div class="item d-flex flex-column stuff__third">
+                    <img src="img/OurStuff/man-smile.jpg" alt="the chef & founder" class="human">
+                    <div class="stuff__text-wrap">
+                        <p class="stuff__name">Piter Shwah<br>
+                            <span class="occupation">
+                            Chef & Founder</span></p>
+                        <div class="stuff__social-wrap d-flex justify-content-around">
+                            <span class="stuff__social-item">Follow:</span>
+                            <i class="icon fa fa-facebook"></i>
+                            <i class="icon fa fa-twitter"></i>
+                            <i class="icon fa fa-instagram"></i>
+                            <i class="icon fa fa-google-plus-square"></i>
+                            <i class="fa fa-pinterest-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="small-circle" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/Ellips_small.png" alt="">
+        </div>
+        <div class="stuff__blue-circle">
+            <img class="big-circle" src="<?php bloginfo( 'template_url' ); ?>/assets/img/OurStuff/Ellipse_big.png" alt="">
+        </div>
+    </div>
+</section>
+
 
 
 
